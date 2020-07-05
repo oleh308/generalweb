@@ -1,0 +1,122 @@
+.pageContainer {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contentContainer {
+  width: 90%;
+  max-width: 600px;
+  padding: 10px 3%;
+  border-radius: 5px;
+  border: 1px solid #E5EDF0;
+}
+
+
+.tabsContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.tabButton {
+  flex: 1;
+  border: none;
+  height: 40px;
+  display: flex;
+  color: #4B94AF;
+  cursor: pointer;
+  font-size: 16px;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  border-bottom: 1px solid #4B94AF;
+}
+
+.tabButton:focus {
+  outline: none;
+}
+
+.tabButton:active {
+  opacity: 0.8;
+}
+
+.selectedTab {
+  color: white;
+  background-color: #4B94AF;
+}
+
+.firstSelected {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.middleSelected {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.lastSelected {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.sectionContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.inputHeader {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  margin-top: 10px;
+  font-weight: 400;
+}
+
+.inputOne {
+  height: 40px;
+  padding-left: 3%;
+  margin-bottom: 10px;
+}
+
+.inputOne:focus {
+  outline: none;
+}
+
+.textOne {
+  resize: none;
+  height: 200px;
+  padding-left: 3%;
+  padding-top: 10px;
+  margin-bottom: 10px;
+}
+
+.textOne:focus {
+  outline: none;
+}
+
+.buttonsContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.buttonOne {
+  color: white;
+  height: 40px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: #4B94AF;
+}
+
+.buttonOne:focus {
+  outline: none;
+}
+
+.buttonOne:active {
+  opacity: 0.9;
+}
